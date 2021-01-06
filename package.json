@@ -9,7 +9,6 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "heroku-postbuild": "ng build --prod --aot=false"
-
     },
     "private": true,
     "dependencies": {
@@ -39,12 +38,13 @@
         "ngx-owl-carousel-o": "^4.0.0",
         "ngx-pagination": "^5.0.0",
         "owl.carousel": "^2.3.4",
+        "path": "^0.12.7",
         "rxjs": "~6.6.0",
         "save": "^2.4.0",
         "tslib": "^2.0.3",
+        "typescript": "~4.0.2",
         "web-animations-js": "^2.3.2",
-        "zone.js": "~0.10.2",
-        "typescript": "~4.0.2"
+        "zone.js": "~0.10.2"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "^0.1100.5",
@@ -69,5 +69,4 @@
         "node": "10.19.0",
         "npm": "6.14.4"
     }
-
 }
