@@ -1405,7 +1405,7 @@ let SearchComponent = class SearchComponent {
     //   this.filterdProducts = []
     //    console.log(this.productList)
     // }
-    addToCart(product_id, qntty = 1) {
+    addToCart(product_id, qntty) {
         this._addCart.addCart(product_id, qntty);
     }
     popUpProduct(product_id) {
