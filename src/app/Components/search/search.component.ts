@@ -169,8 +169,8 @@ page:Number=1
   // }
 
 
-  addToCart(product_id:number ){
-    this._addCart.addCart(product_id )
+  addToCart(product_id:number , qntty:number){
+    this._addCart.addCart(product_id , qntty)
   }
   
   popUpProduct(product_id:number){
