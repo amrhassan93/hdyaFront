@@ -169,7 +169,7 @@ page:Number=1
   // }
 
 
-  addToCart(product_id:number , qntty?:number){
+  addToCart(product_id:number , qntty:number = 1){
     this._addCart.addCart(product_id , qntty)
   }
   
